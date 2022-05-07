@@ -39,9 +39,9 @@ const allConstruct = (target, wordBank, memo = {}) => {
   return result;
 };
 
-console.log(allConstruct('purple', ['purp', 'p', 'ur', 'le', 'purpl']));
-// [['purp', 'le'], ['p','ur','p','le']]
-console.log(allConstruct('abcdef', ['ab', 'abc', 'cd', 'def', 'abcd', 'ef', 'c']));
-// [[ 'ab', 'cd', 'ef' ], [ 'ab', 'c', 'def' ], [ 'abc', 'def' ], [ 'abcd', 'ef' ] ]
-console.log(allConstruct('aaaaaaaaaaaaaaaaaaaaz', ['a', 'aa', 'aaa', 'aaaa', 'aaaaa']));
+// console.log(allConstruct('purple', ['purp', 'p', 'ur', 'le', 'purpl']));
+// // [['purp', 'le'], ['p','ur','p','le']]
+// console.log(allConstruct('abcdef', ['ab', 'abc', 'cd', 'def', 'abcd', 'ef', 'c']));
+// // [[ 'ab', 'cd', 'ef' ], [ 'ab', 'c', 'def' ], [ 'abc', 'def' ], [ 'abcd', 'ef' ] ]
+// console.log(allConstruct('aaaaaaaaaaaaaaaaaaaaz', ['a', 'aa', 'aaa', 'aaaa', 'aaaaa']));
 // []
